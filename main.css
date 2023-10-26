@@ -53,7 +53,7 @@ body {
     border: none;
 }
 
-.header__icon-background__button:hover{
+.header__icon-background__button:hover {
     filter: grayscale(100%);
 }
 
@@ -107,6 +107,29 @@ body {
     height: 10vh;
 }
 
+.footer__text {
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+    padding: 0;
+}
+
+.footer__lang {
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer__lang__button {
+    font-size: 1.2rem;
+    font-family: 'TT Lakes Medium', sans-serif;
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+}
+
+.footer__lang__button:hover {
+    filter: opacity(50%);
+}
+
 /* MODIFIERS */
 
 .header__icon-background--bg-circle {
@@ -119,4 +142,8 @@ body {
 
 .header__icon-background--margin-left {
     margin-left: auto;
+}
+
+.footer__text--size {
+    font-size: 1rem;
 }
