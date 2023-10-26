@@ -14,7 +14,7 @@ body {
 .menu {
     position: absolute;
     height: 1024px;
-    min-width: 320px;
+    width: 320px;
     box-shadow: 2rem 0 3rem #F2F2F2;
     margin: 0 auto;
     padding: 0;
